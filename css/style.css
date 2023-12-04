@@ -1,0 +1,102 @@
+body
+{
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size:xx-large;
+   height: 120vh;
+   background-color: bisque;
+}
+
+.cabecalho{
+    text-align: center;
+    height: 90%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*pesquisa*/
+input{
+    padding: 8px 20px;
+    font-size:medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 50px;
+    background-color:antiquewhite;
+}
+
+.botao{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:#333;
+    color:#FFF;
+    padding: 10px 8px;
+    border-radius: 30px;
+    border: 2px solid black;
+    font-size:small;
+}
+/*botão*/
+.bb{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:aliceblue;
+    color: #FFF;
+    padding: 20px 50px;
+    border-radius: 30px;
+    border: 2px solid black;
+    font-size: medium;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+/*barra*/
+.barra{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background: #333;
+    position: fixed; top: 0; left: 0;
+    width: 100vw;
+    color: aliceblue;
+}
+ul {
+    list-style: none;
+    background: #333;
+    text-align: center;
+}
+ul li {
+    display: inline-block;
+    position: relative;
+}
+ul li a {
+    display: block;
+    padding: 2px 25px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul li a:hover {
+    background: #222;
+}
+
+/*resultados*/
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+
+}
+
+
+h1{
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
